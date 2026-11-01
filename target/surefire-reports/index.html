@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Rebalancing_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Rebalancing Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Rebalancing_Suite" class="navigator-link ">
+                    <span>C:\Code\git\PortfolioRebalanceAutomationAssessment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Rebalancing_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Rebalancing_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Rebalancing_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Rebalancing_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Rebalancing_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Rebalancing_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rebalancing_Suite" class="hide-methods passed suite-Rebalancing_Suite"> (hide)</a> <!-- hide-methods passed suite-Rebalancing_Suite -->
+                      <a href="#" panel-name="suite-Rebalancing_Suite" class="show-methods passed suite-Rebalancing_Suite"> (show)</a> <!-- show-methods passed suite-Rebalancing_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rebalancing_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Allocation greater than 100 percent&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Allocation greater than 100 percent", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Rounding and boundary values", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Verify share calculation", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Account with zero total assets&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Account with zero total assets", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Negative Price&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Negative Price", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Rounding and boundary values", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Negative Asset Value&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Negative Asset Value", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Allocation less than 100 percent&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Allocation less than 100 percent", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Verify share calculation", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Zero Price&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Zero Price", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Rounding and boundary values", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Asset is validated before price&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Asset is validated before price", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Negative Target Percentage&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Negative Target Percentage", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Verify share calculation", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Rounding and boundary values", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Account with no holdings&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Account with no holdings", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fractional targets that total 100 are accepted&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Fractional targets that total 100 are accepted", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Zero Asset Value&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Zero Asset Value", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Rebalance Account ABC to target weights&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Rebalance Account ABC to target weights", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Holding without a security name&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Holding without a security name", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;One invalid holding fails the whole rebalance&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("One invalid holding fails the whole rebalance", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid Allocation&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Invalid Allocation", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Missing account&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Missing account", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Rounding and boundary values", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rebalancing_Suite" title="com.rebalance.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">runScenario("Rounding and boundary values", "Portfolio Rebalance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rebalancing_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rebalancing_Suite" class="panel Rebalancing_Suite">
+          <div class="suite-Rebalancing_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rebalance.runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Allocation greater than 100 percent&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Allocation greater than 100 percent", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Allocation greater than 100 percent","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Rounding and boundary values", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Rounding and boundary values","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Verify share calculation", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify share calculation","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Account with zero total assets&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Account with zero total assets", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Account with zero total assets","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Negative Price&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Negative Price", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Negative Price","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Rounding and boundary values", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Rounding and boundary values","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Negative Asset Value&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Negative Asset Value", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Negative Asset Value","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Allocation less than 100 percent&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Allocation less than 100 percent", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Allocation less than 100 percent","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Verify share calculation", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify share calculation","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Zero Price&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Zero Price", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Zero Price","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Rounding and boundary values", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Rounding and boundary values","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Asset is validated before price&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Asset is validated before price", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Asset is validated before price","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Negative Target Percentage&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Negative Target Percentage", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Negative Target Percentage","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Verify share calculation", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify share calculation","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Rounding and boundary values", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Rounding and boundary values","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Account with no holdings&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Account with no holdings", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Account with no holdings","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fractional targets that total 100 are accepted&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Fractional targets that total 100 are accepted", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fractional targets that total 100 are accepted","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Zero Asset Value&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Zero Asset Value", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Zero Asset Value","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Rebalance Account ABC to target weights&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Rebalance Account ABC to target weights", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Rebalance Account ABC to target weights","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Holding without a security name&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Holding without a security name", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Holding without a security name","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;One invalid holding fails the whole rebalance&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("One invalid holding fails the whole rebalance", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("One invalid holding fails the whole rebalance","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid Allocation&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Invalid Allocation", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid Allocation","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Missing account&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Missing account", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Missing account","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Rounding and boundary values", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Rounding and boundary values","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;)">
+                  </a> <!-- runScenario("Rounding and boundary values", "Portfolio Rebalance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Rounding and boundary values","Portfolio Rebalance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rebalancing_Suite-class-passed -->
+        </div> <!-- panel Rebalancing_Suite -->
+        <div panel-name="test-xml-Rebalancing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Code\git\PortfolioRebalanceAutomationAssessment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Rebalancing Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Portfolio Rebalancing Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rebalance.runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Portfolio Rebalancing Tests --&gt;
+&lt;/suite&gt; &lt;!-- Rebalancing Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rebalancing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rebalancing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Portfolio Rebalancing Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rebalancing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rebalancing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rebalancing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rebalancing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rebalancing_Suite');
+function tableData_Rebalancing_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(0, 3, 188);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(1, 3, 28);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(2, 3, 15);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(3, 3, 14);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(4, 3, 13);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(5, 3, 13);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(6, 3, 12);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(7, 3, 12);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(8, 3, 11);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(9, 3, 10);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(10, 3, 9);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(11, 3, 9);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(12, 3, 9);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(13, 3, 9);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(14, 3, 8);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(15, 3, 8);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(16, 3, 7);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(17, 3, 7);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(18, 3, 7);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(19, 3, 6);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(20, 3, 6);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(21, 3, 6);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(22, 3, 6);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(23, 3, 5);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'com.rebalance.runner.TestRunner')
+data.setCell(24, 3, 5);
+window.suiteTableData['Rebalancing_Suite']= { tableData: data, tableDiv: 'times-div-Rebalancing_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 423 ms</span>
+              <div id="times-div-Rebalancing_Suite">
+              </div> <!-- times-div-Rebalancing_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rebalancing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rebalancing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rebalancing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rebalancing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rebalance.runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@756cf158)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify share calculation", "Portfolio Rebalance")</span>
+                <span class="method-start">1580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify share calculation", "Portfolio Rebalance")</span>
+                <span class="method-start">1774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify share calculation", "Portfolio Rebalance")</span>
+                <span class="method-start">1790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Rounding and boundary values", "Portfolio Rebalance")</span>
+                <span class="method-start">1802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Rounding and boundary values", "Portfolio Rebalance")</span>
+                <span class="method-start">1814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Rounding and boundary values", "Portfolio Rebalance")</span>
+                <span class="method-start">1828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Rounding and boundary values", "Portfolio Rebalance")</span>
+                <span class="method-start">1843 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Rounding and boundary values", "Portfolio Rebalance")</span>
+                <span class="method-start">1851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Rounding and boundary values", "Portfolio Rebalance")</span>
+                <span class="method-start">1860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Zero Asset Value", "Portfolio Rebalance")</span>
+                <span class="method-start">1867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Zero Price", "Portfolio Rebalance")</span>
+                <span class="method-start">1877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Negative Asset Value", "Portfolio Rebalance")</span>
+                <span class="method-start">1886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Negative Price", "Portfolio Rebalance")</span>
+                <span class="method-start">1896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Invalid Allocation", "Portfolio Rebalance")</span>
+                <span class="method-start">1905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Asset is validated before price", "Portfolio Rebalance")</span>
+                <span class="method-start">1915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Rebalance Account ABC to target weights", "Portfolio Rebalance")</span>
+                <span class="method-start">1926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Account with no holdings", "Portfolio Rebalance")</span>
+                <span class="method-start">1955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Missing account", "Portfolio Rebalance")</span>
+                <span class="method-start">1961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Holding without a security name", "Portfolio Rebalance")</span>
+                <span class="method-start">1968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("One invalid holding fails the whole rebalance", "Portfolio Rebalance")</span>
+                <span class="method-start">1974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Account with zero total assets", "Portfolio Rebalance")</span>
+                <span class="method-start">1981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Allocation less than 100 percent", "Portfolio Rebalance")</span>
+                <span class="method-start">1990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Allocation greater than 100 percent", "Portfolio Rebalance")</span>
+                <span class="method-start">1995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Fractional targets that total 100 are accepted", "Portfolio Rebalance")</span>
+                <span class="method-start">2009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Negative Target Percentage", "Portfolio Rebalance")</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">2031 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

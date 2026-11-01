@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.045" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="27"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Code\git\PortfolioRebalanceAutomationAssessment\target\test-classes;C:\Code\git\PortfolioRebalanceAutomationAssessment\target\classes;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Sandeep\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-testng\7.18.1\cucumber-testng-7.18.1.jar;C:\Users\Sandeep\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Sandeep\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sandeep\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sandeep\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sandeep\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="27"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Sandeep\.jdks\openjdk-27.0.1.0.3\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sandeep\AppData\Local\Temp\surefire8637801560546026985\surefirebooter-20261101130844982_3.jar C:\Users\Sandeep\AppData\Local\Temp\surefire8637801560546026985 2026-11-01T13-08-44_667-jvmRun1 surefire-20261101130844982_1tmp surefire_0-20261101130844982_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Code\git\PortfolioRebalanceAutomationAssessment\target\test-classes;C:\Code\git\PortfolioRebalanceAutomationAssessment\target\classes;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Sandeep\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sandeep\.m2\repository\io\cucumber\cucumber-testng\7.18.1\cucumber-testng-7.18.1.jar;C:\Users\Sandeep\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Sandeep\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sandeep\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sandeep\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sandeep\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sandeep"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-25"/>
+    <property name="java.home" value="C:\Users\Sandeep\.jdks\openjdk-27.0.1.0.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Code\git\PortfolioRebalanceAutomationAssessment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sandeep\AppData\Local\Temp\surefire8637801560546026985\surefirebooter-20261101130844982_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="27.0.1.0.3+1-2"/>
+    <property name="user.name" value="Sandeep"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sandeep\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sandeep\AppData\Local\Temp\"/>
+    <property name="java.version" value="27.0.1.0.3"/>
+    <property name="user.dir" value="C:\Code\git\PortfolioRebalanceAutomationAssessment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Sandeep\.jdks\openjdk-27.0.1.0.3\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files\cursor\resources\app\node_modules\@vscode\ripgrep\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\WireGuard\;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\cursor\resources\app\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Users\Sandeep\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Sandeep\AppData\Local\Programs\Python\Python313\;C:\Users\Sandeep\.amplify\bin;C:\Users\Sandeep\AppData\Local\Microsoft\WindowsApps;C:\Users\Sandeep\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.5\bin;C:\Users\Sandeep\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\bin;C:\Users\Sandeep\.jdks\openjdk-27.0.1.0.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\plugins\maven-plugin\lib\maven3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="27.0.1.0.3+1-2"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="71.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;](1)" classname="com.rebalance.runner.TestRunner" time="0.195">
+    <system-out><![CDATA[
+Scenario Outline: Verify share calculation # src/test/resources/features/rebalance.feature:18
+  Given total asset is 100000              # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20              # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10             # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 150                    # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated           # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "BUY"              # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 67                  # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;](2)" classname="com.rebalance.runner.TestRunner" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Verify share calculation # src/test/resources/features/rebalance.feature:19
+  Given total asset is 100000              # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20              # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 30             # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 220                    # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated           # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "SELL"             # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 45                  # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify share calculation&quot;, &quot;Portfolio Rebalance&quot;](3)" classname="com.rebalance.runner.TestRunner" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: Verify share calculation # src/test/resources/features/rebalance.feature:20
+  Given total asset is 100000              # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20              # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 20             # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 90                     # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated           # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "NONE"             # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 0                   # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;](4)" classname="com.rebalance.runner.TestRunner" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: Rounding and boundary values # src/test/resources/features/rebalance.feature:33
+  Given total asset is 100000                  # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20                  # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                 # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 300                        # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated               # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "BUY"                  # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 33                      # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;](5)" classname="com.rebalance.runner.TestRunner" time="0.012">
+    <system-out><![CDATA[
+Scenario Outline: Rounding and boundary values # src/test/resources/features/rebalance.feature:34
+  Given total asset is 100000                  # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20                  # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                 # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 4000                       # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated               # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "BUY"                  # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 3                       # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;](6)" classname="com.rebalance.runner.TestRunner" time="0.014">
+    <system-out><![CDATA[
+Scenario Outline: Rounding and boundary values # src/test/resources/features/rebalance.feature:35
+  Given total asset is 100000                  # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 10                  # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 20                 # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 4000                       # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated               # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "SELL"                 # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 3                       # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;](7)" classname="com.rebalance.runner.TestRunner" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Rounding and boundary values # src/test/resources/features/rebalance.feature:36
+  Given total asset is 100000                  # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 0                   # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                 # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 150                        # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated               # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "SELL"                 # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 67                      # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;](8)" classname="com.rebalance.runner.TestRunner" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Rounding and boundary values # src/test/resources/features/rebalance.feature:37
+  Given total asset is 100000                  # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 100                 # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 90                 # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 200                        # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated               # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "BUY"                  # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 50                      # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Rounding and boundary values&quot;, &quot;Portfolio Rebalance&quot;](9)" classname="com.rebalance.runner.TestRunner" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Rounding and boundary values # src/test/resources/features/rebalance.feature:38
+  Given total asset is 100000                  # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 12.5                # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                 # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 100                        # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated               # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then action should be "BUY"                  # com.rebalance.stepdefinition.RebalanceSteps.verifyAction(java.lang.String)
+  And shares should be 25                      # com.rebalance.stepdefinition.RebalanceSteps.verifyShares(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Zero Asset Value&quot;, &quot;Portfolio Rebalance&quot;](10)" classname="com.rebalance.runner.TestRunner" time="0.008">
+    <system-out><![CDATA[
+Scenario: Zero Asset Value                                             # src/test/resources/features/rebalance.feature:40
+  Given total asset is 0                                               # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20                                          # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                                         # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 150                                                # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated                                       # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then validation error should be "Asset value must be greater than 0" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Zero Price&quot;, &quot;Portfolio Rebalance&quot;](11)" classname="com.rebalance.runner.TestRunner" time="0.009">
+    <system-out><![CDATA[
+Scenario: Zero Price                                             # src/test/resources/features/rebalance.feature:48
+  Given total asset is 100000                                    # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20                                    # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                                   # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 0                                            # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated                                 # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then validation error should be "Price must be greater than 0" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Negative Asset Value&quot;, &quot;Portfolio Rebalance&quot;](12)" classname="com.rebalance.runner.TestRunner" time="0.017">
+    <system-out><![CDATA[
+Scenario: Negative Asset Value                                         # src/test/resources/features/rebalance.feature:56
+  Given total asset is -100000                                         # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20                                          # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                                         # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 150                                                # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated                                       # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then validation error should be "Asset value must be greater than 0" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Negative Price&quot;, &quot;Portfolio Rebalance&quot;](13)" classname="com.rebalance.runner.TestRunner" time="0.003">
+    <system-out><![CDATA[
+Scenario: Negative Price                                         # src/test/resources/features/rebalance.feature:64
+  Given total asset is 100000                                    # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20                                    # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                                   # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is -150                                         # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated                                 # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then validation error should be "Price must be greater than 0" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Invalid Allocation&quot;, &quot;Portfolio Rebalance&quot;](14)" classname="com.rebalance.runner.TestRunner" time="0.007">
+    <system-out><![CDATA[
+Scenario: Invalid Allocation                                            # src/test/resources/features/rebalance.feature:72
+  Given total asset is 100000                                           # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 120                                          # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                                          # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 150                                                 # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated                                        # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then validation error should be "Target percentage cannot exceed 100" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Asset is validated before price&quot;, &quot;Portfolio Rebalance&quot;](15)" classname="com.rebalance.runner.TestRunner" time="0.009">
+    <system-out><![CDATA[
+Scenario: Asset is validated before price                              # src/test/resources/features/rebalance.feature:80
+  Given total asset is 0                                               # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is 20                                          # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                                         # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 0                                                  # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated                                       # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then validation error should be "Asset value must be greater than 0" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Rebalance Account ABC to target weights&quot;, &quot;Portfolio Rebalance&quot;](16)" classname="com.rebalance.runner.TestRunner" time="0.029">
+    <system-out><![CDATA[
+Scenario: Rebalance Account ABC to target weights # src/test/resources/features/rebalance.feature:95
+  Given account "ABC" has total assets 100000     # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  And the account holds:                          # com.rebalance.stepdefinition.RebalanceSteps.theAccountHolds(io.cucumber.datatable.DataTable)
+    | security | target | current | price |
+    | IBM      | 20     | 10      | 150   |
+    | MSFT     | 20     | 20      | 90    |
+    | ORCL     | 20     | 30      | 220   |
+    | AAPL     | 20     | 20      | 450   |
+    | HD       | 20     | 20      | 70    |
+  When the account is rebalanced                  # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then the shares to buy or sell should be:       # com.rebalance.stepdefinition.RebalanceSteps.theSharesToBuyOrSellShouldBe(io.cucumber.datatable.DataTable)
+    | security | action | shares |
+    | IBM      | BUY    | 67     |
+    | MSFT     | NONE   | 0      |
+    | ORCL     | SELL   | 45     |
+    | AAPL     | NONE   | 0      |
+    | HD       | NONE   | 0      |
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Account with no holdings&quot;, &quot;Portfolio Rebalance&quot;](17)" classname="com.rebalance.runner.TestRunner" time="0.004">
+    <system-out><![CDATA[
+Scenario: Account with no holdings              # src/test/resources/features/rebalance.feature:118
+  Given account "EMPTY" has total assets 100000 # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  When the account is rebalanced                # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then the shares to buy or sell should be:     # com.rebalance.stepdefinition.RebalanceSteps.theSharesToBuyOrSellShouldBe(io.cucumber.datatable.DataTable)
+    | security | action | shares |
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Missing account&quot;, &quot;Portfolio Rebalance&quot;](18)" classname="com.rebalance.runner.TestRunner" time="0.007">
+    <system-out><![CDATA[
+Scenario: Missing account                               # src/test/resources/features/rebalance.feature:124
+  Given no account is provided                          # com.rebalance.stepdefinition.RebalanceSteps.noAccountIsProvided()
+  When the account is rebalanced                        # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then validation error should be "Account is required" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Holding without a security name&quot;, &quot;Portfolio Rebalance&quot;](19)" classname="com.rebalance.runner.TestRunner" time="0.006">
+    <system-out><![CDATA[
+Scenario: Holding without a security name                     # src/test/resources/features/rebalance.feature:129
+  Given account "ABC" has total assets 100000                 # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  And the account holds:                                      # com.rebalance.stepdefinition.RebalanceSteps.theAccountHolds(io.cucumber.datatable.DataTable)
+    | security | target | current | price |
+    | [empty]  | 20     | 10      | 150   |
+  When the account is rebalanced                              # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then validation error should be "Security name is required" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;One invalid holding fails the whole rebalance&quot;, &quot;Portfolio Rebalance&quot;](20)" classname="com.rebalance.runner.TestRunner" time="0.005">
+    <system-out><![CDATA[
+Scenario: One invalid holding fails the whole rebalance          # src/test/resources/features/rebalance.feature:137
+  Given account "ABC" has total assets 100000                    # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  And the account holds:                                         # com.rebalance.stepdefinition.RebalanceSteps.theAccountHolds(io.cucumber.datatable.DataTable)
+    | security | target | current | price |
+    | IBM      | 20     | 10      | 150   |
+    | MSFT     | 20     | 20      | 0     |
+  When the account is rebalanced                                 # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then validation error should be "Price must be greater than 0" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+  And no rebalance results should be returned                    # com.rebalance.stepdefinition.RebalanceSteps.noRebalanceResultsShouldBeReturned()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Account with zero total assets&quot;, &quot;Portfolio Rebalance&quot;](21)" classname="com.rebalance.runner.TestRunner" time="0.006">
+    <system-out><![CDATA[
+Scenario: Account with zero total assets                               # src/test/resources/features/rebalance.feature:147
+  Given account "ABC" has total assets 0                               # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  And the account holds:                                               # com.rebalance.stepdefinition.RebalanceSteps.theAccountHolds(io.cucumber.datatable.DataTable)
+    | security | target | current | price |
+    | IBM      | 20     | 10      | 150   |
+  When the account is rebalanced                                       # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then validation error should be "Asset value must be greater than 0" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Allocation less than 100 percent&quot;, &quot;Portfolio Rebalance&quot;](22)" classname="com.rebalance.runner.TestRunner" time="0.005">
+    <system-out><![CDATA[
+Scenario: Allocation less than 100 percent                           # src/test/resources/features/rebalance.feature:155
+  Given account "ABC" has total assets 100000                        # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  And the account holds:                                             # com.rebalance.stepdefinition.RebalanceSteps.theAccountHolds(io.cucumber.datatable.DataTable)
+    | security | target | current | price |
+    | IBM      | 20     | 10      | 150   |
+    | MSFT     | 20     | 20      | 90    |
+    | ORCL     | 20     | 30      | 220   |
+    | AAPL     | 20     | 20      | 450   |
+    | HD       | 10     | 20      | 70    |
+  When the account is rebalanced                                     # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then validation error should be "Target allocation must total 100" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+  And no rebalance results should be returned                        # com.rebalance.stepdefinition.RebalanceSteps.noRebalanceResultsShouldBeReturned()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Allocation greater than 100 percent&quot;, &quot;Portfolio Rebalance&quot;](23)" classname="com.rebalance.runner.TestRunner" time="0.013">
+    <system-out><![CDATA[
+Scenario: Allocation greater than 100 percent                        # src/test/resources/features/rebalance.feature:168
+  Given account "ABC" has total assets 100000                        # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  And the account holds:                                             # com.rebalance.stepdefinition.RebalanceSteps.theAccountHolds(io.cucumber.datatable.DataTable)
+    | security | target | current | price |
+    | IBM      | 30     | 10      | 150   |
+    | MSFT     | 30     | 20      | 90    |
+    | ORCL     | 30     | 30      | 220   |
+    | AAPL     | 20     | 20      | 450   |
+    | HD       | 20     | 20      | 70    |
+  When the account is rebalanced                                     # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then validation error should be "Target allocation must total 100" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+  And no rebalance results should be returned                        # com.rebalance.stepdefinition.RebalanceSteps.noRebalanceResultsShouldBeReturned()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Fractional targets that total 100 are accepted&quot;, &quot;Portfolio Rebalance&quot;](24)" classname="com.rebalance.runner.TestRunner" time="0.008">
+    <system-out><![CDATA[
+Scenario: Fractional targets that total 100 are accepted # src/test/resources/features/rebalance.feature:181
+  Given account "ABC" has total assets 100000            # com.rebalance.stepdefinition.RebalanceSteps.accountHasTotalAssets(java.lang.String,double)
+  And the account holds:                                 # com.rebalance.stepdefinition.RebalanceSteps.theAccountHolds(io.cucumber.datatable.DataTable)
+    | security | target | current | price |
+    | IBM      | 33.33  | 30      | 100   |
+    | MSFT     | 33.33  | 30      | 100   |
+    | ORCL     | 33.34  | 40      | 100   |
+  When the account is rebalanced                         # com.rebalance.stepdefinition.RebalanceSteps.theAccountIsRebalanced()
+  Then the shares to buy or sell should be:              # com.rebalance.stepdefinition.RebalanceSteps.theSharesToBuyOrSellShouldBe(io.cucumber.datatable.DataTable)
+    | security | action | shares |
+    | IBM      | BUY    | 33     |
+    | MSFT     | BUY    | 33     |
+    | ORCL     | SELL   | 67     |
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Negative Target Percentage&quot;, &quot;Portfolio Rebalance&quot;](25)" classname="com.rebalance.runner.TestRunner" time="0.01">
+    <system-out><![CDATA[
+Scenario: Negative Target Percentage                                     # src/test/resources/features/rebalance.feature:196
+  Given total asset is 100000                                            # com.rebalance.stepdefinition.RebalanceSteps.totalAsset(double)
+  And target percentage is -10                                           # com.rebalance.stepdefinition.RebalanceSteps.targetPercentage(double)
+  And current percentage is 10                                           # com.rebalance.stepdefinition.RebalanceSteps.currentPercentage(double)
+  And unit price is 150                                                  # com.rebalance.stepdefinition.RebalanceSteps.unitPrice(double)
+  When the shares are calculated                                         # com.rebalance.stepdefinition.RebalanceSteps.theSharesAreCalculated()
+  Then validation error should be "Target percentage cannot be negative" # com.rebalance.stepdefinition.RebalanceSteps.validationErrorShouldBe(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
